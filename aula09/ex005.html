@@ -14,11 +14,12 @@
 </head>
 <body>
     <h1>Iniciando estudos em DOM</h1>
-    <p>Aprendendo a usar o <strong>DOM</strong> em javascript</p>
+    <p id="msg">Aprendendo a usar o <strong>DOM</strong> em javascript</p>
     <p>Aqui vai o resultado</p>
     <div>Clique em mim</div>
     <script>
-        window.document.write(window.document.charset)
+        var p1 = window.document.getElementById('msg')
+        window.alert(p1.innerText)
     </script>
 </body>
 </html>
