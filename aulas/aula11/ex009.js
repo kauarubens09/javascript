@@ -1,0 +1,1 @@
+var pais = 'França'
